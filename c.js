@@ -1,5 +1,5 @@
 export class C {
   c() {
-    console.log("C");
+    console.log("__C__");
   }
 }
