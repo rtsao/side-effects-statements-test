@@ -13,6 +13,7 @@
     }
   };
   var dep_default = B;
+  console.log("__D__");
 
   // index.js
   console.log(A);

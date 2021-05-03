@@ -8,7 +8,7 @@ const bundles = {
 
 for (let [bundler, bundle] of Object.entries(bundles)) {
   console.log(bundler);
-  for (let item of ["A", "B", "C"]) {
+  for (let item of ["A", "B", "C", "D"]) {
     if (bundle.includes(`__${item}__`)) {
       console.log(`✅ ${item} bundled`);
     } else {

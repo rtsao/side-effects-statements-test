@@ -4,4 +4,6 @@ export default class B extends C {
   }
 }
 
+console.log("__D__");
+
 export {A} from "./a.js";
