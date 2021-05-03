@@ -1,0 +1,17 @@
+{
+  "name": "side-effects-statement-test",
+  "version": "1.0.0",
+  "scripts": {
+    "bundle": "yarn bundle:webpack && yarn bundle:esbuild",
+    "bundle:webpack": "webpack",
+    "bundle:esbuild": "esbuild --bundle index.js --outfile=dist/bundle-esbuild.js",
+    "test": "yarn bundle && node check.js"
+  },
+  "dependencies": {
+    "esbuild": "^0.11.18",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0"
+  },
+  "sideEffects": false,
+  "license": "MIT"
+}
